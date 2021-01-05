@@ -1,0 +1,19 @@
+body {
+    background-image:url("../../wave.svg");
+    background-repeat: no-repeat;
+}
+.carta {
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 240px;
+}
+.cartitas img {
+    height: 70px;
+    width: 50px;
+    margin: 10px;
+}

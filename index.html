@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Assets/css/estilos.css" />
+    <title>Blackjack</title>
+</head>
+
+<body>
+    <header class="row d-flex flex-row align-content-center justify-content-center">
+        <div class="cartitas my-3">
+            <img src="Assets/cartas/AC.png" alt="" />
+            <img src="Assets/cartas/AS.png" alt="" />
+        </div>
+
+        <h1 class="p-3 my-4 text-center rounded-pill">
+            Black<span style="color: #cc3329">Jack</span>
+        </h1>
+
+        <div class="cartitas my-3">
+            <img src="Assets/cartas/AH.png" alt="" />
+            <img src="Assets/cartas/AD.png" alt="" />
+        </div>
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center contenedor-botones">
+            <button class="btn btn-dark mx-2" id="btnNuevo">Nuevo Juego</button>
+            <button class="btn btn-outline-primary mx-2 rounded-pill" disabled="disabled" id="btnPedir">
+                Pedir Carta
+            </button>
+            <button class="btn btn-danger mx-2 " disabled="disabled" id="btnDetener">Detener</button>
+        </div>
+    </div>
+    <div class="row container mt-3">
+        <div class="col">
+            <h1>Jugador - <small>0</small></h1>
+            <div id="jugador-cartas" class="divCartas"></div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas" class="divCartas"></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/93af959fe5.js" crossorigin="anonymous"></script>
+    <script src="Assets/js/underscore-min.js"></script>
+    <script src="Assets/js/juego.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
