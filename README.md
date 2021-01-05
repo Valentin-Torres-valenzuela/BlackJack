@@ -1,0 +1,1 @@
+# la pc esta automatizada para ganar siempre
