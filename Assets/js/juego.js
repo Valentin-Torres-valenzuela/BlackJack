@@ -87,7 +87,7 @@ const turnoComputadora = (puntosMinimos) => {
     smalls[1].innerText = puntosComputadora;
 
     const imgCarta = document.createElement('img');
-    imgCarta.src = `assets/cartas/${carta}.png`;
+    imgCarta.src = `Assets/cartas/${carta}.png`;
     imgCarta.classList.add('carta');
     divCartasComputadora.append(imgCarta);
 
